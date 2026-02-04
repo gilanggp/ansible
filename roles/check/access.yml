@@ -1,4 +1,5 @@
 - name: Check User Access & Dir 
+  hosts: dot_semeru
   remote_user: project
   gather_facts: false
 
