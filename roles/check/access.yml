@@ -1,4 +1,3 @@
----
 - name: Check User Access & Dir 
   hosts: development
   remote_user: project
