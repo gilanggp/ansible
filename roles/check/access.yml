@@ -1,6 +1,6 @@
 - name: Check User Access & Dir 
   hosts: {{ TARGET_HOST }}
-  remote_user: project
+  remote_user: {{ TARGET_USER }}
   gather_facts: false
 
   tasks:

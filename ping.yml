@@ -1,0 +1,5 @@
+- hosts: {{ TARGET_HOST }}
+  remote_user: {{ TARGET_USER }}
+  tasks:
+    - name: Test connectivity with ping module
+      ansible.builtin.ping:
