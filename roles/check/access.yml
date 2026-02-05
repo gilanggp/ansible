@@ -1,5 +1,5 @@
 - name: Check User Access & Dir 
-  hosts: dot_semeru
+  hosts: {{ TARGET_HOST }}
   remote_user: project
   gather_facts: false
 
